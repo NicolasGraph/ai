@@ -99,7 +99,7 @@ Tool Methods
 
 You can configure the method to be called by the LLM with the :class:`Symfony\\AI\\Agent\\Toolbox\\Attribute\\AsTool` attribute and have multiple tools per class::
 
-    use Symfony\AI\Toolbox\Attribute\AsTool;
+    use Symfony\AI\Agent\Toolbox\Attribute\AsTool;
 
     #[AsTool(
         name: 'weather_current',
